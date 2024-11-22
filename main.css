@@ -1,0 +1,339 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap');
+
+@font-face {
+    font-family: 'Rigata';
+    src: url('assets/fonts/rigata.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Camelia';
+    src: url('assets/fonts/Camelia.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-size: inherit;
+    line-height: inherit;
+}
+
+:root {
+    /* main colors*/
+    --title-color: #B57031;
+    --main-text:#5F4B2B;
+    --secondery-border: #2f2515;
+    --main-background: #20180C;
+    --text-color: #F8E8D2;
+    /*main fonts */
+    --quote-font: 'Camelia', cursive;
+    --text-font: 'Raleway', sans-serif;
+    --title-font: 'Rigata', cursive;
+
+    --default-border: solid 1px var(--main-text);
+    --default-radius: 12px;
+}
+
+body {
+    background-color: var(--main-background);
+}
+
+
+.info .button .btn{
+    font-family: var(--text-font), sans-serif;
+    background-color: var(--title-color);
+    border: var(--main-text) 2px solid;
+    padding: 1rem 4rem;
+    max-width: 300px;
+    min-width: 150px;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    border-radius: var(--default-radius);
+    align-self: center;
+}
+
+.info .button a {
+    font-size: 1.3rem;
+    color: var(--text-color);
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: var(--main-background);
+    padding-top: 10px;
+    position: relative;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .name  h1 {
+    font-family: var(--title-font), cursive;
+    color: var(--text-color);
+    font-size: 2rem;
+    margin-top: 0.5rem;
+    font-weight: lighter;
+    white-space: nowrap;
+}
+
+header nav a {
+    font-family: var(--title-font), cursive;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 15px 60px;
+
+}
+
+.accessibility-buttons {
+    position: fixed;
+    top: 20px;
+    left: 0;
+    background-color: var(--main-background);
+    padding: 7px;
+    margin-left: 2rem;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
+.accessibility-buttons button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: var(--title-color);
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.accessibility-buttons button:hover {
+    background-color: var(--text-color);
+}
+
+
+.navhr {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0.5rem;
+}
+
+
+.navhr hr {
+    border-top: 2px solid var(--secondery-border);
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+
+.about .project {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+
+.card {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 3rem;
+    margin-top: 0.2rem;
+    max-width: 900px;
+    width: 90%;
+    color: var(--text-color);
+    border-radius: 10px;
+    z-index: 1;
+    text-align: center;
+
+}
+
+.card h2, .examples article h3 {
+    font-family: var(--title-font), cursive;
+    font-size: 3rem;
+    color: var(--title-color);
+    margin-bottom: 1.5rem;
+}
+
+.examples{
+    margin-top: 5rem;
+}
+
+
+.card p {
+    font-family: var(--text-font), sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+
+}
+
+.about .project::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("assets/images/img3.jpeg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.4;
+    z-index: 0;
+}
+
+/* Para todas as páginas, exceto "Home" */
+.notHome .project::before {
+    background-image: url("assets/images/img5.jpg");
+}
+
+
+main {
+    padding: 2rem;
+    font-family: var(--text-font), sans-serif;
+    background-color: var(--main-background);
+    text-align: center;
+    color: var(--text-color);
+}
+
+.info .image img {
+    display: inline-block;
+    height: 700px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    max-width: 1000px;
+}
+
+
+cite a {
+    text-decoration: underline;
+    color: var(--title-color);
+    font-weight: normal;
+    transition: color 0.3s ease;
+    font-size: 1.3rem;
+}
+
+
+
+main .info h3, main .projects .title h3 {
+    font-family: var(--title-font), cursive;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+main .title hr, main .info h3,.title hr {
+    width: 70%;
+    display: inline-block;
+    height: 100%;
+}
+
+main .info p, main .projects p, .examples article p , .projects ol li{
+    font-size: 1.4rem;
+    font-family: var(--text-font), cursive;
+    line-height: 1.8;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    height: 100%;
+}
+
+.info h4, .project .title h4{
+    font-family: var(--text-font), sans-serif;
+}
+
+.projects ol {
+    padding-left: 0;
+    list-style-position: inside;
+    margin-bottom: 2rem;
+
+}
+
+.projects ol li {
+    font-family: var(--text-font), cursive;
+    margin-bottom: 2rem;
+    padding-left: 0.5rem;
+    font-size: 2.3rem;
+}
+
+.projects li h4{
+    font-size: 1rem;
+}
+
+.quote h4{
+    font-family: var(--title-font), cursive;
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.select{
+    font-weight: 600;
+}
+
+.projects .image{
+    margin-bottom: 1.5rem;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+
+
+
+
+footer {
+    background-color: var(--secondery-border);
+    padding: 2rem 0;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+footer a:hover {
+    color: var(--main-text);
+}
+
