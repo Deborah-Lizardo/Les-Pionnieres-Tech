@@ -46,6 +46,8 @@
 
 body {
     background-color: var(--main-background);
+    zoom: 0.8;
+
 }
 
 
