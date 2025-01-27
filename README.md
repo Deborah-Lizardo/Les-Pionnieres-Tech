@@ -1,6 +1,6 @@
 # **Les Pionnières Tech - Personal Project** 🗼✨
 
-Welcome to **Les Pionnières Tech**, a project created to **honor the groundbreaking women** who have made groundbreaking contributions in the field of assistive technology, celebrating their innovations in an industry traditionally dominated by men.👩‍💻
+Welcome to **Les Pionnières Tech**, a project created to **honor the  women** who have made groundbreaking contributions in the field of assistive technology, celebrating their innovations in an industry traditionally dominated by men.👩‍💻
 
 **Assistive technology** plays a crucial role in promoting digital inclusion, ensuring accessibility and equity for all. This project not only highlights the incredible women who shaped the tech world but also strives to make the digital space more inclusive for everyone. 🌐
 
