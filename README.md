@@ -1,48 +1,42 @@
-# 🌸 Lumina Bella - Candle Shop Website 🌸
+# **Les Pionnières Tech - Personal Project** 🗼✨
 
-**Project Overview**  
-**Lumina Bella** is an elegant online store showcasing a collection of exclusive handcrafted candles. This project was developed as part of a **Web Development** course in the second semester, focusing on HTML and CSS. The site’s aesthetic blends floral beauty, sophistication, and artisanal craftsmanship to create an immersive experience for users. 🌷✨
+Welcome to **Les Pionnières Tech**, a project created to **honor the groundbreaking women** who have made groundbreaking contributions in the field of assistive technology, celebrating their innovations in an industry traditionally dominated by men.👩‍💻
 
----
+**Assistive technology** plays a crucial role in promoting digital inclusion, ensuring accessibility and equity for all. This project not only highlights the incredible women who shaped the tech world but also strives to make the digital space more inclusive for everyone. 🌐
 
-## ✨ Features: 
+## **About the Project**
 
-###  **Homepage**:
-- A warm and inviting image introducing the store’s theme and setting the tone for the user experience. 🌸
-- Easy navigation with a menu linking to:
-  - **Home** 🌸
-  - **Collections** 🕯️
-  - **Gift Card** 🎁
-  - **About Us** 🌷
+**Les Pionnières Tech** is an independently developed website as part of my **Web Development** course. Built with **HTML5**, **CSS3**, and **JavaScript**, the website focuses on accessibility, aiming to create an inclusive experience for all users. 
 
-### 🌹 **Secret Garden Collection**:
-- The main highlight of the homepage, showcasing the **Secret Garden** collection, featuring floral-shaped candles with delicate details and subtle fragrances. 🌹💐
-- A link directs users to explore more products within the collection. ✨
+## 🛠️ **Technologies Used**:
 
-###  💐**Exclusive Candles** :
-- **Bouquet Candle**: Handcrafted with intricate details resembling real flowers, bringing elegance and fragrance to your space.
-- **Heart Candle**: Designed to create a romantic ambiance with natural ingredients and delightful fragrances.
-- **Bubble Candle**: Modern and round, these candles add a unique touch of style while offering a delightful sensory experience.
+- **HTML5** 🔠
+- **CSS3** 🎨
+- **JavaScript** 💻
+- **Accessibility Tools**: Color Contrast Analyser, Luminosity Contrast Ratio 🟩🔍
 
-### 📬 **Newsletter Subscription**:
-- Users can **subscribe** to receive exclusive updates about new collections and special offers. 🌟💌
+## 🌐 **Accessibility**
 
-### 🌿 **Sustainability Focus**:
-- **100% Vegan Wax** 🌱
-- **Cruelty-Free** 🐾💖
-- **Nationwide Shipping** across Brazil 🚚🌸
+This project follows **AAA WCAG guidelines**, ensuring it meets the highest standards for web accessibility. Tools like the **Color Contrast Analyser** and **Luminosity Contrast Ratio** have been applied to ensure that color contrasts are optimized for a universally accessible browsing experience. ♿🔎
 
----
+## **What's Next?**
 
-## 🛠️ Technologies Used:
-- **HTML5** for the structure and content. 💻
-- **CSS3** for styling and layout. 🎨
+This project is a **work in progress**, with future plans to **expand** and **improve** the site, adding more content and refining the code. My goal is to create a space where women’s contributions to assistive technology are celebrated, and the digital experience is accessible for all. 🏗️🎯
 
----
+## **Honoring the Pioneers of Assistive Technology**
 
-## 📝 Authors:
-- Deborah 🌷   
-- Cecília 🌷  
+This project is a **continuous tribute** to the women who have paved the way for the advancement of assistive technology. As we say in French, *"C’est grâce à elles que la technologie avance"*—It is thanks to them that technology moves forward. 
 
-This project was designed to provide users with a visually appealing and user-friendly experience, offering more than just candles—it’s about creating an atmosphere of elegance, tranquility, and beauty through handcrafted products. 🌸✨
+##  **How to Access:**
+
+To explore the site, click [here](https://deborah-lizardo.github.io/Les-Pionnieres-Tech/) and immerse yourself in the stories of inspiring women pioneers in assistive technology!
+
+## **Looking Ahead:**
+
+- I am committed to **improving the code** and expanding the content
+
+Created with a commitment to inclusion💻
+
+À bientôt!🥂
+
 
